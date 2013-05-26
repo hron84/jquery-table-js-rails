@@ -1,6 +1,6 @@
 = jquery-table-js-rails
 
-Description goes here.
+Asset pipeline integration for https://github.com/geraldb/jquery.table.js
 
 == Contributing to jquery-table-js-rails
  
