@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "jquery-table-js-rails"
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Gabor Garami"]
@@ -22,9 +22,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/jquery-table-js-rails.rb",
-    "vendor/assets/javascripts/demo/style.css",
-    "vendor/assets/javascripts/jquery.table.js"
+    "lib/jquery-table-js-rails.rb"
   ]
   s.homepage = "http://github.com/hron84/jquery-table-js-rails"
   s.licenses = ["MIT"]
