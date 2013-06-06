@@ -21,6 +21,10 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Asset pipeline integration for https://github.com/geraldb/jquery.table.js}
   gem.email = "hron@hron.me"
   gem.authors = ["Gabor Garami"]
+  gem.files = Dir["lib/**/*"] + 
+              ['vendor/assets/javascripts/jquery.table.js', 
+               'vendor/assets/javascripts/demo/style.css'] + 
+              ['Rakefile','Gemfile', 'VERSION', 'LICENSE.txt', 'README.rdoc']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -28,16 +32,7 @@ Jeweler::RubygemsDotOrgTasks.new
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-end
-
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
+  test.pattern = 'test/**/*_test.rb'
 end
 
 task :default => :test

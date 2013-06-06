@@ -1,0 +1,3 @@
+[submodule "vendor/assets/javascripts"]
+	path = vendor/assets/javascripts
+	url = git://github.com/geraldb/jquery.table.js.git
