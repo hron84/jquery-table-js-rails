@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Gabor Garami"]
-  s.date = "2013-05-26"
+  s.date = "2013-06-06"
   s.description = "Asset pipeline integration for https://github.com/geraldb/jquery.table.js"
   s.email = "hron@hron.me"
   s.extra_rdoc_files = [
@@ -17,16 +17,14 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    ".document",
-    ".gitmodules",
-    ".ruby-gemset",
-    ".ruby-version",
     "Gemfile",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/jquery-table-js-rails.rb"
+    "lib/jquery-table-js-rails.rb",
+    "vendor/assets/javascripts/demo/style.css",
+    "vendor/assets/javascripts/jquery.table.js"
   ]
   s.homepage = "http://github.com/hron84/jquery-table-js-rails"
   s.licenses = ["MIT"]
