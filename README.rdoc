@@ -17,7 +17,7 @@ After installation, you have to include following line into your application.js 
 
     //= require jquery.table
 
-Please make sure you added this line *after* requiring jquery or jquery_ujs (jquery_ujs is automatically reqires jquery)
+Please make sure you added this line *after* requiring +jquery+ or +jquery_ujs+ (jquery_ujs is automatically reqires jquery)
 
 == Contributing to jquery-table-js-rails
  
