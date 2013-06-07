@@ -2,6 +2,23 @@
 
 Asset pipeline integration for https://github.com/geraldb/jquery.table.js
 
+Build status:
+{<img src="https://travis-ci.org/hron84/jquery-table-js-rails.png?branch=develop" alt="Build Status" />}[https://travis-ci.org/hron84/jquery-table-js-rails]
+
+== Usage
+
+Add this gem into your <tt>Gemfile</tt>:
+
+    gem 'jquery-table-js-rails'
+
+Or install it directly via <tt>gem install jquery-table-js-rails</tt>
+
+After installation, you have to include following line into your application.js or wherever you want to include it:
+
+    //= require jquery.table
+
+Please make sure you added this line *after* requiring jquery or jquery_ujs (jquery_ujs is automatically reqires jquery)
+
 == Contributing to jquery-table-js-rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
